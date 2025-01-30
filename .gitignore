@@ -1,0 +1,23 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+
+# Data and outputs
+data/predictions/*
+!data/predictions/.gitkeep
+data/rankings/*
+!data/rankings/.gitkeep
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
